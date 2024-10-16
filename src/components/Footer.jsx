@@ -1,7 +1,7 @@
 import React from 'react';
 import { IoSendOutline } from "react-icons/io5";
-import qrcode from "./public/images/1024px-QR_Code_Example.svg.png"
-import badge from "./public/images/download.png"
+// import qrcode from "./public/images/1024px-QR_Code_Example.svg.png"
+import badge from "../public/download__1_-removebg-preview.png"
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
@@ -58,7 +58,7 @@ const Footer = () => {
         
         <div className='flex items-center gap-3 min-w-[10vw]'>
         <div className="left">
-          <img src={qrcode} alt="" className='w-[6vw] z-10 bg-white' />
+          {/* <img src={qrcode} alt="" className='w-[6vw] z-10 bg-white' /> */}
         </div>
         <div className="right flex flex-col">
           <img src={badge} alt="" className='w-[7vw] bg-white'/>

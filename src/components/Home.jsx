@@ -9,8 +9,8 @@ import {
     CarouselNext,
     CarouselPrevious,
 } from "@/components/ui/carousel"; // Make sure this path is correct according to your project structure
-import banner from "./public/images/download (4).jfif";
-import iphoneBanner from "./public/images/iconic_STORY_LEVEL_BANNER_1600x483.jpg";
+// import banner from "";
+// import iphoneBanner from "./public/images/iconic_STORY_LEVEL_BANNER_1600x483.jpg";
 import Item from "./Item";
 
 import { TbTruckDelivery } from 'react-icons/tb';
