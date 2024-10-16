@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Header from "./Header";
 import Footer from "./Footer";
-import controller from "./public/images/download__2_-removebg-preview.png";
+// import controller from "./public/images/download__2_-removebg-preview.png";
 import { RiStarSLine } from "react-icons/ri";
 import { CiHeart } from "react-icons/ci";
 import { TbTruckDelivery } from "react-icons/tb";

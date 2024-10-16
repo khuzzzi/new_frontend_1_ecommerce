@@ -1,7 +1,7 @@
 import React from 'react';
 import HeaderText from './HeaderText';
 import Header from './Header';
-import mobileWithCart from "./public/images/mobilewithcart.jpg";
+import mobileWithCart from "../public/mobile-with-filters.jpg";
 import { FcGoogle } from "react-icons/fc";
 import Footer from './Footer';
 import { Link, useNavigate } from 'react-router-dom';
