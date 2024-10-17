@@ -11,7 +11,7 @@ const useFetchSellerProductsOnly = () => {
   useEffect(() => {
     const fetchSellerOnlyProducts = async () => {
       try {
-        const response = await axios.get("https://ecommerce-platform-backend-ogt2oko7q-khuzzzis-projects.vercel.app/api/v1/seller/showSellerProducts", {
+        const response = await axios.get("http://localhost:3000/api/v1/seller/showSellerProducts", {
           withCredentials: true
         });
 

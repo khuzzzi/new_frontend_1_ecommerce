@@ -25,7 +25,7 @@ const SellerLogin = () => {
     try {
       
       
-      const response = await axios.post("https://ecommerce-platform-backend-ogt2oko7q-khuzzzis-projects.vercel.app/api/v1/seller/loginSellerAccount", input,{
+      const response = await axios.post("http://localhost:3000/api/v1/seller/loginSellerAccount", input,{
         headers : {
           'Content-Type' : 'application/json'
         },

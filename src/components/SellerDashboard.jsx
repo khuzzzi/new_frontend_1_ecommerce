@@ -52,7 +52,7 @@ const SellerDashboard = () => {
     }
 
     try {
-      const response = await axios.post("https://ecommerce-platform-backend-ogt2oko7q-khuzzzis-projects.vercel.app/api/v1/seller/addingProducts", formData, {
+      const response = await axios.post("http://localhost:3000/api/v1/seller/addingProducts", formData, {
         headers: {
           'Content-Type': 'multipart/form-data'
         },

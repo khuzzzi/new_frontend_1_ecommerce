@@ -38,11 +38,11 @@ const Checkout = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('https://ecommerce-platform-backend-ogt2oko7q-khuzzzis-projects.vercel.app/api/v1/productacts/gettingDataForCheckout', formData);
+      const response = await axios.post('http://localhost:3000/api/v1/productacts/gettingDataForCheckout', formData);
       if(response.data.success){
         navigate("/thanks")
         try {
-          await axios.post(`https://ecommerce-platform-backend-ogt2oko7q-khuzzzis-projects.vercel.app/api/v1/productacts/sendingemail/${formData.email}`)
+          await axios.post(`http://localhost:3000/api/v1/productacts/sendingemail/${formData.email}`)
         } catch (error) {
           console.log(error)
         }

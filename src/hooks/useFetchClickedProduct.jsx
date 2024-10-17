@@ -12,7 +12,7 @@ const useFetchClickedProduct = (productId) => {
         const fetchOnlyClickedProduct = async () => {
             setLoading(true); // Start loading
             try {
-                const response = await axios.get(`https://ecommerce-platform-backend-ogt2oko7q-khuzzzis-projects.vercel.app/api/v1/productacts/details/${productId}`);
+                const response = await axios.get(`http://localhost:3000/api/v1/productacts/details/${productId}`);
                 dispatch(setClickedProduct(response.data.productDetails));
             } catch (error) {
                 setError(error);

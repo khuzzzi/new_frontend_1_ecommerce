@@ -52,29 +52,7 @@ const Home = () => {
                         {/* left area for mobiles */}
 
                         {/* Carousel Items */}
-                        <div className="relative w-[70%] h-full flex items-center justify-center max-sm:flex-col max-sm:w-[85%] ">
-                            <Carousel className="w-[60%] h-full max-w-[1000px] max-sm:w-full max-sm:h-auto">
-                                <CarouselContent>
-                                    <CarouselItem className="w-full h-full max-sm:h-auto">
-                                        <img src={banner} alt="Banner" className="w-full h-full object-cover max-sm:w-full max-sm:h-auto" />
-                                    </CarouselItem>
-                                    <CarouselItem className="w-full h-full max-sm:h-auto">
-                                        <img src={iphoneBanner} alt="iPhone Banner" className="w-full h-full object-cover max-sm:w-full max-sm:h-auto" />
-                                    </CarouselItem>
-                                    <CarouselItem className="w-full h-full max-sm:h-auto">
-                                        <img src={banner} alt="Banner" className="w-full h-full object-cover max-sm:w-full max-sm:h-auto" />
-                                    </CarouselItem>
-                                </CarouselContent>
-
-                                {/* Carousel controls */}
-                                <div className="absolute inset-y-0 left-0 flex items-center max-sm:hidden">
-                                    <CarouselPrevious className="bg-gray-200 rounded-full p-2" />
-                                </div>
-                                <div className="absolute inset-y-0 right-0 flex items-center max-sm:hidden">
-                                    <CarouselNext className="bg-gray-200 rounded-full p-2" />
-                                </div>
-                            </Carousel>
-                        </div>
+                        
 
                     </div>
 
