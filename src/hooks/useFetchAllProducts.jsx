@@ -12,7 +12,7 @@ const useFetchAllProducts = () => {
         const fetchAllProducts = async () => {
             setLoading(true);
             try {
-                const response = await axios.get("http://localhost:3000/api/v1/seller/allProducts", { withCredentials: true });
+                const response = await axios.get("https://new-ecommerce-platform-backend-1.vercel.app/api/v1/seller/allProducts", { withCredentials: true });
                 console.log(response)
                 if(response.data.status !== 200){
                     console.log(response)

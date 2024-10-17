@@ -27,7 +27,7 @@ const ProductDetails = () => {
 
     const handleBuyNow = async (productId) => {
         try {
-            const response = await axios.get(`http://localhost:3000/api/v1/productacts/checkout/${productId}`);
+            const response = await axios.get(`https://new-ecommerce-platform-backend-1.vercel.app/api/v1/productacts/checkout/${productId}`);
             if (!response) {
                 console.log("Error occurred on the backend");
             } else {
@@ -40,7 +40,7 @@ const ProductDetails = () => {
     };
 
     const handleWishlist = async (color) => {
-        const url = `http://localhost:3000/api/v1/productacts/${color === "red" ? "removeFromWishlist" : "addToWishlist"}/${productId}`;
+        const url = `https://new-ecommerce-platform-backend-1.vercel.app/api/v1/productacts/${color === "red" ? "removeFromWishlist" : "addToWishlist"}/${productId}`;
         setWishListAdded(color !== "red");
         try {
             await axios.post(url, {}, { withCredentials: true });
